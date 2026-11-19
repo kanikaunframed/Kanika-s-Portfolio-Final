@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { LandingHero } from "./components/LandingHero";
-import { Dock } from "./components/Dock";
+import Dock from './Dock';
 import { Home } from "./components/Home";
 import { About } from "./components/About";
 import {
